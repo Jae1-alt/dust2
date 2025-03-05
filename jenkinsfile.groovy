@@ -36,7 +36,7 @@ pipeline {
         }
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/tek-gong/AWS-JenkinsRepo-S3' 
+                git branch: 'main', url: 'https://github.com/Jae1-alt/dust2.git' 
             }
         }
         stage('Initialize Terraform') {
